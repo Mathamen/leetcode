@@ -1,23 +1,24 @@
+import java.util.Stack;
+
 class q20 {
     public boolean isValid(String s) {
         char[] ar = s.toCharArray();
-        int parE = 0, parD = 0, chaE = 0, chaD = 0, colE = 0, colD = 0;
+        Stack<Character> stack = new Stack<>();
+        for (char c : ar) {
+            if (c == '(' || c == '{' || c == '[') {
+                stack.push(c);
+            } else {
+                if (stack.isEmpty()) {return false;}
+                char top = stack.pop();
 
-        for (int i = 0; i < ar.length; i++) {
-            switch (ar[i]) {
-                case '(' -> { parE++; break; }
-                case ')' -> { parD++; break; }
-                case '{' -> { chaE++; break; }
-                case '}' -> { chaD++; break; }
-                case '[' -> { colE++; break; }
-                case ']' -> { colD++; break; }
+                if ((c == ')' && top != '(') ||
+                    (c == '}' && top != '{') ||
+                    (c == ']' && top != '[')) {
+                    return false;
+                }
             }
         }
-
-        if (parE != parD || chaE != chaD || colE != colD) {
-            return false;
-        }
-
-        return true;
+        return stack.isEmpty();
     }
 }
+

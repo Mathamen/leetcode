@@ -9,7 +9,11 @@ Nesta seção, estão as questões de categoria easy/fácil. Cada pasta contém 
 * Array: 1
 * Hash Table: 1
 * Math: 9
+* String: 20
+* Stack: 20
 
 ## Questões Resolvidas por Linguagem
 
-* Java: 1, 9
+* Java: 1, 9, 20
+* Rust: 9
+* Python: 9
