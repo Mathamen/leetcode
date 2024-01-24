@@ -6,14 +6,14 @@ Nesta seção, estão as questões de categoria easy/fácil. Cada pasta contém 
 
 ## Temas das Questões
 
-* Array: 1
+* Array: 1 , 66
 * Hash Table: 1
-* Math: 9
+* Math: 9 , 66
 * String: 20
 * Stack: 20
 
 ## Questões Resolvidas por Linguagem
 
-* Java: 1, 9, 20
-* Rust: 9
+* Java: 1, 9, 20 , 66
+* Rust: 9, 20
 * Python: 9
