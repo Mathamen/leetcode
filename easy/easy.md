@@ -17,3 +17,4 @@ Nesta seção, estão as questões de categoria easy/fácil. Cada pasta contém 
 * Java: 1, 9, 20 , 66
 * Rust: 9, 20
 * Python: 9
+* C++: 9
