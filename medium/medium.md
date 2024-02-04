@@ -13,3 +13,4 @@ Nesta seção, estão as questões de categoria medium/médio. Cada pasta conté
 ## Questões Resolvidas por Linguagem
 
 * C++: 2
+* Java: 50
